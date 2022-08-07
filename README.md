@@ -10,7 +10,7 @@ let results = m.simulate();
 const result = csv(results, people, 4);
 writeFileSync("output.csv", result)
 ```
-
+The 4 number indicates the ammount of numbers after the decimal point.
 
 # `simulation` - Simulation and modeling for Node and the browser
 
