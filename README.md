@@ -5,6 +5,8 @@ To output the standard table use as shown in examples.
 For CSV output:
 
 ```javascript
+import { writeFileSync } from "fs"
+
 let results = m.simulate();
 
 const result = csv(results, people, 4);
