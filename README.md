@@ -1,6 +1,6 @@
 Minor modification of https://github.com/scottfr/simulation for csv output
 
-To output the standard table use as showed in examples.
+To output the standard table use as shown in examples.
 
 For CSV output:
 
