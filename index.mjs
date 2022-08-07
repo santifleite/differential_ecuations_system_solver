@@ -1,5 +1,5 @@
 import { Model } from "simulation";
-import { table, plot } from "simulation-viz-console";
+import { csv } from "simulation-viz-console";
 
 import { writeFileSync } from "fs"
 
@@ -33,5 +33,5 @@ m.Link(growthRate, netGrowth);
 
 let results = m.simulate();
 
-const result = table(results, people, 4);
+const result = csv(results, people, 4);
 writeFileSync("output.csv", result)
